@@ -21,6 +21,9 @@ Next add a dependency in the `build.gradle` file of your app module:
 implementation 'com.github.Pancast-Product:pancast-assist-android-sdk:v1.0.0'
 ```
 
+Current release version:
+[![Release](https://jitpack.io/v/Pancast-Product/pancast-assist-android-sdk.svg)](https://jitpack.io/#Pancast-Product/pancast-assist-android-sdk)
+
 ## Starting a PancastAssist session
 
 To start using Pancast Assist, simply create a `PancastAssist(Context context, String appId, String uri)` instance. You should only create one instance of PancastAssist to use for all video and advert events.
