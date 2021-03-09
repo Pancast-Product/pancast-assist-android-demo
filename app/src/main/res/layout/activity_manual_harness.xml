@@ -35,6 +35,13 @@
                 android:text="Start Pancast Assist" />
 
             <Button
+                android:id="@+id/setUserIdButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Set User Id" />
+
+            <Button
                 android:id="@+id/videoStartButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -42,11 +49,67 @@
                 android:text="Video Start" />
 
             <Button
+                android:id="@+id/videoPlayButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Video Play" />
+
+            <Button
                 android:id="@+id/videoPauseButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:text="Video Pause" />
+
+            <Button
+                android:id="@+id/videoProgressButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Video Progress" />
+
+            <Button
+                android:id="@+id/videoVolumeChangeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Video Volume Change" />
+
+            <Button
+                android:id="@+id/videoFullscreenButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Video Fullscreen" />
+
+            <Button
+                android:id="@+id/videoChangeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Video Change" />
+
+            <Button
+                android:id="@+id/videoQualityChangeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Video Quality Change" />
+
+            <Button
+                android:id="@+id/videoLoadedMetadataButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Video Loaded Metadata" />
+
+            <Button
+                android:id="@+id/videoErrorButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Video Error" />
 
             <Button
                 android:id="@+id/videoEndButton"
@@ -63,6 +126,41 @@
                 android:text="Ad Start" />
 
             <Button
+                android:id="@+id/adChangeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Ad Change" />
+
+            <Button
+                android:id="@+id/adPlayButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Ad Play" />
+
+            <Button
+                android:id="@+id/adPauseButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Ad Pause" />
+
+            <Button
+                android:id="@+id/adProgressButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Ad Progress" />
+
+            <Button
+                android:id="@+id/adErrorButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Ad Error" />
+
+            <Button
                 android:id="@+id/adEndButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -73,7 +171,7 @@
 
     </ScrollView>
 
-    <TextView
+    <com.pancast.pancastassistexample.CopyTextView
         android:id="@+id/debugTextView"
         android:layout_width="match_parent"
         android:layout_height="200dp"

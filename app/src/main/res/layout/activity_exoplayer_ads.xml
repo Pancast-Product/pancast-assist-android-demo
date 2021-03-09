@@ -38,7 +38,7 @@
         </LinearLayout>
     </ScrollView>
 
-    <TextView
+    <com.pancast.pancastassistexample.CopyTextView
         android:id="@+id/debugTextView"
         android:layout_width="match_parent"
         android:layout_height="200dp"

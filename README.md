@@ -4,13 +4,13 @@ Pancast Assist is an Android SDK for reporting media player events to Snowplow A
 
 ## Getting Started
 
-The best way to get started using Pancast Assist is to add it as a gradle dependency. You need to make sure you have the maven jitpack repository included in the `build.gradle` file in the root of your project:
+The best way to get started using Pancast Assist is to add it as a gradle dependency. You need to make sure you have the maven bintray repository included in the `build.gradle` file in the root of your project:
 
 ```gradle
 allprojects {
     repositories {
         ...
-        maven { url 'https://jitpack.io' }
+        maven { url 'https://dl.bintray.com/pancast/pancast-assist' }
     }
 }
 ```
@@ -18,11 +18,11 @@ allprojects {
 Next add a dependency in the `build.gradle` file of your app module:
 
 ```gradle
-implementation 'com.github.Pancast-Product:pancast-assist-android-sdk:v1.0.0'
+implementation 'com.pancast.assist:assistsdk:v1.0.3'
 ```
 
 Current release version:
-[![Release](https://jitpack.io/v/Pancast-Product/pancast-assist-android-sdk.svg)](https://jitpack.io/#Pancast-Product/pancast-assist-android-sdk)
+[ ![Pancast Assist](https://api.bintray.com/packages/pancast/pancast-assist/pancast-assist/images/download.svg) ](https://bintray.com/pancast/pancast-assist/pancast-assist/_latestVersion)
 
 ## Starting a PancastAssist session
 
