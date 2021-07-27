@@ -18,7 +18,7 @@ allprojects {
 Next add a dependency in the `build.gradle` file of your app module:
 
 ```gradle
-implementation 'com.pancast:assist-sdk-android:v1.0.4'
+implementation 'com.pancast:assist-sdk-android:1.0.5'
 ```
 
 Current release version:
